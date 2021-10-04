@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Planner Project First Brainstorm
+        </title>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.ico">
+        
+    </head>
+    <body>
+        <header>
+            <h1>Planner Project First Brainstorm</h1>
+            <h4> Date: 10/03/2021</h4> <br/>
+            <nav>
+                <ol>
+                    <li><a href="#brainstorm">Brainstorming</a></li>
+                    <li><a href="#documentation">documentation</a></li>
+                    <li><a href="#schedule">schedule</a></li>
+                </ol>
+            </nav>
+            <details>
+                <Summary>Summary</Summary>
+                This is a summary of the first meeting. <br/>
+                We talked about the ideas, documentation requirements, and general timeline of our project.
+            </details>
+        </header>
+        <main>
+            <h3>Attendance List:</h3>
+            <h4>present:</h4>
+            <ul>
+                <li>David</li>
+            </ul>
+            <h4>absent:</h4>
+            None
+            <h3>Unfinished business from last time</h3>
+            None
+            <div>
+            <section>
+                <h2 id="brainstorm">Brainstorming</h2>
+                <h3>Here are some of the elements that we think should be inside a planner:</h3>
+                <ul>
+                    <li>A calendar</li>
+                    <li>A event adder</li>
+                    <li>An alarm clock</li>
+                </ul>
+                More details to come. 
+            </section>
+            <section>
+                <h2 id="documentation">Documentation</h2>
+                <p>
+                    Our team should maintain <i>proper documantation</i> at all times. That means anyone new to the team 
+                    should be able to follow your documentation and be able to <b>understand the functionality</b> of your
+                     features. 
+                </p>
+            </section>
+            <section>
+                <h2 id="schedule">Schedule</h2>
+                Our initial plan is to have the basic functionality of the planner by the end of the <em>fall quarter</em>. <br/>
+                This initial plan may be impacted by unforseen situations. In that case, the deadline may be extended but is no later than the end of the <strong>winter quarter</strong>.
+            </section>
+            </div>
+            <img src="Diagram.jpeg"
+                 alt="Some Diagram"
+                 width="500">
+            <h3>Please don't forget to take the short survey below:</h3>
+            <form>
+                <fieldset>
+                    <label for="background">Tell us your background:</label> <br/>
+                    <textarea id="background" name="background" rows="10" cols="100"></textarea><br/>
+
+                    <br/>
+
+                    <label for="title">What title do you want to be?</label> <br/>
+                    <input list="titles" id="title" name="title">
+                    <datalist id="titles">
+                        <option value="developer">
+                        <option value="coordinator">
+                        <option value="marketing">
+                        <option value="manager">
+                        <option value="consultant">
+                    </datalist><br/>
+
+                    <br/>
+
+                    <label for="personalities">What is personality?</label> <br/>
+                    <input list="personalities" id="personlaity" name="personality">
+                    <datalist id="personalities">
+                        <option value="extrovert">
+                        <option value="introvert">
+                        <option value="optimistic">
+                        <option value="pessimistic">
+                        <option value="candid">
+                    </datalist><br/>
+
+                    <label for="PL">What is your favorite program language?</label><br/>
+
+                    <input type="radio" id="cpp" name="PL">
+                    <label for="cpp">C++</label><br/>
+
+                    <input type="radio" id="java" name="PL">
+                    <label for="java">Java</label><br/>
+
+                    <input type="radio" id="c" name="PL">
+                    <label for="c">C</label><br/>
+
+                    <input type="radio" id="python" name="PL">
+                    <label for="python">Python</label><br/>
+
+                    <br/>
+
+                    <label for="role">What role do you consider yourself in a team?</label><br/>
+
+                    <input type="checkbox" id="leader" name="role">
+                    <label for="leader">Leader</label><br/>
+
+                    <input type="checkbox" id="coordinator" name="role">
+                    <label for="coordinator">Coordinator</label><br/>
+
+                    <input type="checkbox" id="worker" name="role">
+                    <label for="worker">Worker</label><br/>
+
+                    <input type="checkbox" id="supporter" name="role">
+                    <label for="supporter">Supporter</label><br/>
+
+                    <br/>
+
+                    <label for="c&c">Any comments or concerns?</label>
+
+                    <input type="text" id="comments" name="c&c" size="200"><br/>
+
+                    <br/>
+
+                    <label for="date">Today's date:</label>
+                    <input type="date" id="date" name="date"> <br/>
+
+                    <br/>
+                </fieldset>
+                <button type="button">Click for a SURPRISE</button>
+            </form>
+        </main>
+        <footer>
+            <h3>Misc. comments and questions</h3>
+            <strong>Question from David:</strong> What is the powerhouse of the cell?
+            <figure>
+                <figcaption>
+                    The voice recording of the meeting
+                </figcaption>
+                <audio controls src="meeting-audio.mp3">your browser does not support the audio element</audio>
+            </figure>
+            <figure>
+                <figcaption>
+                    The video recording of the meeting
+                </figcaption>
+                <video controls width="250" src="meeting-video.mp4" type="video/mp4">your browser does not support the audio element</video>
+            </figure>
+        </footer>
+    </body>
+</html>
