@@ -1,5 +1,5 @@
 /* This is the start of the CSS stylesheet */
-#official-title {
+h1 {
     color: navy;
     margin-left: 20px;
 }
@@ -15,4 +15,28 @@
 #attendance {
     color: white;
     background-color: black;
+}
+ul[id="attribute-list"] {
+    margin-top: auto;
+    margin-bottom: 40px;
+    margin-left: 4em;
+    margin-right: 10cm;
+    padding-left: .3in;
+    padding-right: 1pc;
+    padding-top: 1ex;
+    padding-bottom: 20vw;
+}
+* {
+    background-color: cornsilk;
+}
+button:hover {
+    color: blue;
+}
+#schedule {
+    padding: 3ex;
+    margin: 3ex;
+    border-radius: 10cm;
+    border-color: blue;
+    border-width: 10cm;
+    border-style: dashed;
 }
