@@ -2,9 +2,12 @@
 h1 {
     color: navy;
     margin-left: 20px;
+    display: flex;
+    position: static;
 }
 #present {
     color: #00ff00;
+    position: relative;
 }
 #absent {
     color: hsl(30, 100%, 50%);
@@ -32,6 +35,9 @@ ul[id="attribute-list"] {
 button:hover {
     color: blue;
 }
+button:active {
+    background-color: green;
+}
 #schedule {
     padding: 3ex;
     margin: 3ex;
@@ -39,4 +45,16 @@ button:hover {
     border-color: blue;
     border-width: 10cm;
     border-style: dashed;
+}
+#attribute-list, p {
+    text-decoration: dotted;
+    text-align: left;
+    color: green;
+    display: block;
+}
+#survey-intro {
+    height: auto;
+    width: auto;
+    max-width: auto;
+    min-width: none;
 }
