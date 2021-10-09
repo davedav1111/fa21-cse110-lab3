@@ -3,3 +3,12 @@
     color: navy;
     margin-left: 20px;
 }
+#present {
+    color: #00ff00;
+}
+#absent {
+    color: hsl(30, 100%, 50%);
+}
+#unfinished {
+    color: rgb(222, 13, 184);
+}
