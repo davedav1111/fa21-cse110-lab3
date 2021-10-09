@@ -58,3 +58,23 @@ button:active {
     max-width: auto;
     min-width: none;
 }
+fieldset > label {
+    color: cyan;
+}
+
+img + p {
+    color: blue;
+}
+.spacious {
+    margin: 2cm;
+}
+
+ul li {
+    color: green;
+}
+@media(max-width: 12450px) {
+
+}
+p {
+    font-family: "Yusel Magic";
+}
